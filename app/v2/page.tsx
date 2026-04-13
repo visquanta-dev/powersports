@@ -273,8 +273,8 @@ export default function LeadCapturePage() {
               <div className="lg:hidden relative">
                 <div className="w-28 h-28 rounded-full overflow-hidden border-2 border-[#FF7404]/40 shadow-[0_0_30px_-5px_rgba(255,116,4,0.3)]">
                   <Image
-                    src="/images/sia-small.png"
-                    alt="Sia Small, VisQuanta"
+                    src="/images/hero-male.png"
+                    alt="VisQuanta"
                     width={112}
                     height={112}
                     className="w-full h-full object-cover object-top"
@@ -288,8 +288,8 @@ export default function LeadCapturePage() {
                   {/* Orange glow behind */}
                   <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[420px] h-[260px] bg-[#FF7404]/10 rounded-full blur-[80px]" />
                   <Image
-                    src="/images/sia-small.png"
-                    alt="Sia Small, VisQuanta"
+                    src="/images/hero-male.png"
+                    alt="VisQuanta"
                     fill
                     sizes="560px"
                     className="object-contain object-bottom relative z-10"
