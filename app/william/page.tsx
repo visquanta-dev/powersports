@@ -206,7 +206,7 @@ export default function LeadCapturePage() {
         <div className="absolute -top-40 -right-40 w-[600px] h-[600px] bg-[#FF7404]/5 rounded-full blur-[120px] pointer-events-none" />
 
         <div className="container-wide relative z-10 py-16 lg:py-24">
-          <div className="grid lg:grid-cols-[1fr_560px] gap-6 lg:gap-4 items-end">
+          <div className="grid lg:grid-cols-[1fr_420px] gap-6 lg:gap-4 items-end">
             {/* Left: Content + Form */}
             <div className="order-2 lg:order-1">
               {/* Logo */}
@@ -273,8 +273,8 @@ export default function LeadCapturePage() {
               <div className="lg:hidden relative">
                 <div className="w-28 h-28 rounded-full overflow-hidden border-2 border-[#FF7404]/40 shadow-[0_0_30px_-5px_rgba(255,116,4,0.3)]">
                   <Image
-                    src="/images/hero-male.png"
-                    alt="VisQuanta"
+                    src="/images/william.png"
+                    alt="William, VisQuanta"
                     width={112}
                     height={112}
                     className="w-full h-full object-cover object-top"
@@ -284,14 +284,14 @@ export default function LeadCapturePage() {
               </div>
               {/* Desktop: full cutout */}
               <div className="hidden lg:block relative -ml-12">
-                <div className="relative w-[560px] h-[680px]">
+                <div className="relative w-[420px] h-[520px]">
                   {/* Orange glow behind */}
-                  <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[420px] h-[260px] bg-[#FF7404]/10 rounded-full blur-[80px]" />
+                  <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[340px] h-[220px] bg-[#FF7404]/10 rounded-full blur-[80px]" />
                   <Image
-                    src="/images/hero-male.png"
-                    alt="VisQuanta"
+                    src="/images/william.png"
+                    alt="William, VisQuanta"
                     fill
-                    sizes="560px"
+                    sizes="420px"
                     className="object-contain object-bottom relative z-10"
                     priority
                   />
