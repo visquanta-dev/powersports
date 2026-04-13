@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 90" width="480" height="90">
+  <defs>
+    <style>
+      .indian-script { font-family: 'Georgia', 'Times New Roman', serif; font-weight: 700; font-style: italic; font-size: 56px; fill: #ffffff; }
+      .motorcycle-text { font-family: 'Arial', 'Helvetica Neue', sans-serif; font-weight: 700; font-size: 18px; fill: #ffffff; letter-spacing: 8px; text-transform: uppercase; }
+    </style>
+  </defs>
+  <text x="240" y="52" text-anchor="middle" class="indian-script">Indian</text>
+  <text x="240" y="78" text-anchor="middle" class="motorcycle-text">MOTORCYCLE</text>
+</svg>
